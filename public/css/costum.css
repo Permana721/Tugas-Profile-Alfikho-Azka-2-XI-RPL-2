@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 25px;
+    background-image: url(https://1.bp.blogspot.com/-swKkP6bVv-M/Ut_RpRJRiuI/AAAAAAAABD0/z5FRfPso6YA/s1600/ComputerDesktopWallpapersCollection760_089.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: #fffcfc;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #3b3b3b;
+}
+
+.fa-fw {
+    width: 1.25em;
+    text-align: center;
+}
+
+/* Header Styles */
+#colspan {
+    text-align: center;
+}
+
+.about-me {
+    padding: 20px 0;
+}
+
+/* Skill Progress Bars */
+.progress2, .progress3 {
+    background-color: #01f7ff;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+
+.load2, .load3 {
+    background-color: #7c7c7c;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* School and Experience Styles */
+.container-padding {
+    padding: 20px 0;
+}
+
+.content1 {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
+.bottom {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Social Media Icons */
+.fa-facebook, .fa-instagram, .fa-github, .fa-git {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-github:hover, .fa-git:hover {
+    color: #f39c12;
+}
+.cv-photo img{
+    max-width: 150px;
+    border: 3px solid rgb(110, 110, 110);
+    margin-right: 0px;
+    border-radius: 50%;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
